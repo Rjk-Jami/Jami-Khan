@@ -45,8 +45,10 @@ const Navbar = () => {
             {/* <div> */}
             <Link to="about" className={`${navClass}  `} smooth={true} spy={true}
                 activeClass='active' >About</Link>
-            <Link to="blog" className={`${navClass}`} smooth={true} spy={true}
-                activeClass='active' >Blog</Link>
+            <Link to="skill" className={`${navClass}`} smooth={true} spy={true}
+                activeClass='active' >Skill</Link>
+            <Link to="project" className={`${navClass}`} smooth={true} spy={true}
+                activeClass='active' >Project</Link>
             <Link to="contact" className={`${navClass}`} smooth={true} spy={true}
                 activeClass='active' >Contact</Link>
 

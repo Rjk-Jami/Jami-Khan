@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import Home from './components/Home/Home';
-import Blog from './components/Blog/Blog';
 import Contact from './components/Contact/Contact';
 import Navbar from './components/Navbar/Navbar';
-import {Circle2} from 'react-preloaders';
 import About from './components/About/About';
 import  loader  from "./assets/Double-Ring.svg";
+import Skill from './components/Skill/Skill';
+import Project from './components/Project/Project';
 function App() {
   const [loading, setLoading] = useState(false);
 
@@ -37,11 +37,14 @@ function App() {
           <div id="home" >
             <Home />
           </div>
-          <div id='about'>
+          <div id='about' className='pt-20'>
             <About></About>
           </div>
-          <div id="blog">
-            <Blog />
+          <div id="skill" className='lg:py-20'>
+            <Skill />
+          </div>
+          <div id="project" className='lg:py-20'>
+            <Project />
           </div>
           <div id="contact">
             <Contact />
