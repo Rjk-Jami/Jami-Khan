@@ -7,7 +7,7 @@ import { TbBrandVscode } from "react-icons/tb";
 const Skill = () => {
     return (
         <div className='mt-10 container mx-auto'>
-            <div className="me-10 flex lg:flex-row flex-col lg:items-center">
+            <div className="lg:me-10 flex lg:flex-row flex-col lg:items-center">
                 <h2 className='text-2xl text-center font-bold text-white  lf:transform lg:-rotate-90 my-12 lg:my-0'>My Skills</h2>
                 
                 <div className=" grow grid lg:grid-cols-6 md:grid-cols-4 grid-cols-3 gap-4">

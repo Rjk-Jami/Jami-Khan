@@ -7,6 +7,7 @@ import About from './components/About/About';
 import  loader  from "./assets/Double-Ring.svg";
 import Skill from './components/Skill/Skill';
 import Project from './components/Project/Project';
+import Footer from './components/Footer/Footer';
 function App() {
   const [loading, setLoading] = useState(false);
 
@@ -43,12 +44,14 @@ function App() {
           <div id="skill" className='lg:py-20'>
             <Skill />
           </div>
-          <div id="project" className='lg:py-20'>
+          <div id="project" className='py-20'>
             <Project />
           </div>
           <div id="contact">
             <Contact />
           </div>
+
+          <Footer></Footer>
         </>
       )}
     </div>

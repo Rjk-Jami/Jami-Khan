@@ -76,7 +76,7 @@ const Navbar = () => {
                             />
                         </svg>
                     </label>
-                    <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"></ul>
+                    <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">{nav}</ul>
                 </div>
                 <Link to='home' smooth={true} spy={true} ><img className="cursor-pointer mask mask-hexagon bg-[rgb(0,207,93)] w-12 p-2" src={logo} /></Link>
 

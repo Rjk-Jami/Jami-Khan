@@ -49,7 +49,7 @@ const Project = () => {
         <div className='mx-10'>
           <div className=''>
             <h2 className='text-2xl font-bold text-white mb-5'>My Projects</h2>
-            <div className='grid grid-cols-3 gap-5'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5'>
               {projects.map((project, index) => (
                 <div key={index} className='flip'>
                   <div className='flip-content'>

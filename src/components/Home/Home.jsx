@@ -38,10 +38,14 @@ const Home = () => {
                     </div>
                     <div className=" absolute bottom-0 right-0 flex flex-col gap-3 mx-3 my-3 justify-center items-center">
                
-                        <p><a href="https://github.com/Rjk-Jami"><FaGithub className='text-xl text-[rgb(0,207,93)] '></FaGithub></a></p>
-                        <a href="https://www.linkedin.com/in/raihan-jami-khan-380657188/"><FaLinkedinIn className='text-xl text-[rgb(0,207,93)] '></FaLinkedinIn></a>
-                        <a href="https://www.facebook.com/rjk.jami/"><FaFacebookF className='text-xl text-[rgb(0,207,93)] '></FaFacebookF></a>
-                        <a href="https://codepen.io/rjk_jami"><FaCodepen className='text-xl text-[rgb(0,207,93)] '></FaCodepen></a>
+                        <p><a target='_blank'
+                                rel='noopener noreferrer' href="https://github.com/Rjk-Jami"><FaGithub className='text-xl text-[rgb(0,207,93)] '></FaGithub></a></p>
+                        <a target='_blank'
+                                rel='noopener noreferrer' href="https://www.linkedin.com/in/raihan-jami-khan-380657188/"><FaLinkedinIn className='text-xl text-[rgb(0,207,93)] '></FaLinkedinIn></a>
+                        <a target='_blank'
+                                rel='noopener noreferrer' href="https://www.facebook.com/rjk.jami/"><FaFacebookF className='text-xl text-[rgb(0,207,93)] '></FaFacebookF></a>
+                        <a target='_blank'
+                                rel='noopener noreferrer' href="https://codepen.io/rjk_jami"><FaCodepen className='text-xl text-[rgb(0,207,93)] '></FaCodepen></a>
                         
                         
                     </div>
