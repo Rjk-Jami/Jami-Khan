@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import Swal from 'sweetalert2';
 import { MdOutlineLocationOn, MdOutlineMailOutline, MdOutlinePhoneAndroid } from "react-icons/md";
-const FORM_ENDPOINT = "http://localhost:5000/send-email";
+const FORM_ENDPOINT = "https://rainhan-jami-khan-server.vercel.app/send-email";
 const Contact = () => {
+
     const handleSubmit = (e) => {
         e.preventDefault();
 

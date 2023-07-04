@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import "./navbar.css";
 import { Link } from 'react-scroll';
 import logo from "../../assets/J.png"
+import handleDownload from '../hooks/useDownload';
 AOS.init();
 
 const Navbar = () => {
@@ -54,7 +55,7 @@ const Navbar = () => {
 
         </>
     );
-
+    
 
     return (
         <div className="navbar  bg-gray-700  bg-opacity-20 z-20  fixed">
@@ -87,7 +88,7 @@ const Navbar = () => {
             <div className="navbar-end">
                 <a href="#_" className="rounded-md px-3.5 py-1 m-1 overflow-hidden relative group cursor-pointer border-2 font-medium border-[rgb(0,207,93)] text-[rgb(0,207,93)] ">
                     <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-[rgb(0,207,93)] top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
-                    <span className="relative text-[rgb(0,207,93)] transition duration-300 group-hover:text-white ease">Resume</span>
+                    <span onClick={handleDownload} className="relative text-[rgb(0,207,93)] transition duration-300 group-hover:text-white ease">Resume</span>
                 </a>
 
             </div>

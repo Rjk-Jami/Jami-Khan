@@ -6,7 +6,7 @@ import logo from "../../assets/J.png"
 const Footer = () => {
     return (
         <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
-            <div className="grid grid-flow-col gap-4">
+            <div className="grid grid-flow-col gap-4 text-white">
                 <Link smooth={true} spy={true} className="cursor-pointer    hover:text-[rgb(0,207,93)] " to='home'>Home</Link>
                 <Link smooth={true} spy={true} className="cursor-pointer hover:text-[rgb(0,207,93)]" to='about'>About</Link>
                 <Link smooth={true} spy={true} className="cursor-pointer hover:text-[rgb(0,207,93)]" to='skill'>Skills</Link>
