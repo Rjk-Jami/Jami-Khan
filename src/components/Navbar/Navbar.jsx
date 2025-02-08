@@ -8,36 +8,9 @@ import handleDownload from '../hooks/useDownload';
 AOS.init();
 
 const Navbar = () => {
-    const [active, setActive] = useState("home");
+   
 
-    useEffect(() => {
-        const handleScroll = () => {
-            const homeSection = document.getElementById("home");
-            const blogSection = document.getElementById("blog");
-            const contactSection = document.getElementById("contact");
-
-            const currentPosition = window.pageYOffset;
-
-            if (
-                currentPosition >= homeSection.offsetTop &&
-                currentPosition < blogSection.offsetTop
-            ) {
-                setActive("home");
-            } else if (
-                currentPosition >= blogSection.offsetTop &&
-                currentPosition < contactSection.offsetTop
-            ) {
-                setActive("blog");
-            } else if (currentPosition >= contactSection.offsetTop) {
-                setActive("contact");
-            }
-        };
-
-        window.addEventListener("scroll", handleScroll);
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
+   
 
     const navClass = "nav-link cursor-pointer text-xl  text-white font-thin"
 

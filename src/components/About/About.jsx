@@ -8,7 +8,7 @@ const About = () => {
             <div className="grid lg:grid-cols-3 gap-10 mx-10 justify-center">
                 <div className="col-span-2">
                     <h2 className='text-2xl font-bold text-white mb-2'>About me</h2>
-                    <p className='text-lg text-justify'>Hello! I&apos;m Raihan Jami Khan, a Full Stack Web Developer from Bangladesh. I have experience with various programming languages and specifically web technologies. I have graduated with a bachelor&apos;s degree in Computer Science Engineering from Daffodil International University at Dhaka, Bangladesh in 2023. I am available for any kind of job opportunity that suits my interests. Life is a continuous learning process, so work makes me more rigorous. </p>
+                    <p className='text-lg text-justify'>Hello! I&apos;m Raihan Jami Khan, Proficient in React.js, Next.js, Tailwind CSS, Bootstrap, Redux, Redux Toolkit and TanStack Query with expertise in building responsive and dynamic web applications. Skilled in Node.js, Express.js, and MongoDB, with experience in Mongoose, authentication (Firebase, JWT), API handling (Axios), Stripe payment integration and little knowledge in MySQL with Docker. Strong problem-solving and debugging skills, with a focus on clean, maintainable code. Experienced in Git/GitHub for version control and familiar with design tools like Photoshop and Figma. Bachelor&apos;s degree in CSE from Daffodil International University, Bangladesh.</p>
                     <div className=" flex gap-4 mt-5">
                             <div className="">
                                 <a href="#" className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-white rounded hover:bg-white group">

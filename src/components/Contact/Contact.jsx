@@ -59,7 +59,7 @@ const Contact = () => {
                     <div className="flex gap-3 items-center">
                         <MdOutlinePhoneAndroid className='text-4xl text-[rgb(0,207,93)]'></MdOutlinePhoneAndroid><div className="">
                         <p className='text-md' >+880-17860-76080</p>
-                        <p className='text-md' >+880-18230-62452</p>
+                        
                         </div>
                     </div>
                     <div className="flex gap-3 items-center">

@@ -8,7 +8,7 @@ const Home = () => {
 
         <>
             {/* <div className="pt-16"></div> */}
-            <div className=" hero min-h-screen " style={{ backgroundImage: `url(${img})` }}>
+            <div className=" hero min-h-screen " style={{ backgroundImage: `url(https://res.cloudinary.com/dpphpbkkz/image/upload/v1739048399/IMG_0653_3-min_dojsxy.png)` }}>
                 <div className="hero-overlay bg-gray-700  bg-opacity-70"></div>
                 <div className="hero-content text-left text-neutral-content">
                     <div className="max-w-lg">
@@ -45,8 +45,7 @@ const Home = () => {
                                 rel='noopener noreferrer' href="https://www.linkedin.com/in/raihan-jami-khan-380657188/"><FaLinkedinIn className='text-xl text-[rgb(0,207,93)] '></FaLinkedinIn></a>
                         <a target='_blank'
                                 rel='noopener noreferrer' href="https://www.facebook.com/rjk.jami/"><FaFacebookF className='text-xl text-[rgb(0,207,93)] '></FaFacebookF></a>
-                        <a target='_blank'
-                                rel='noopener noreferrer' href="https://codepen.io/rjk_jami"><FaCodepen className='text-xl text-[rgb(0,207,93)] '></FaCodepen></a>
+                        
                         
                         
                     </div>

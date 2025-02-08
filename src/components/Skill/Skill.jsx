@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaFigma, FaNodeJs, FaReact } from 'react-icons/fa';
-import { SiBootstrap, SiCss3, SiFirebase, SiJavascript, SiMongodb, SiMui, SiNextdotjs, SiPython, SiTailwindcss, SiVercel } from "react-icons/si";
+import { FaFigma, FaNodeJs, FaReact, FaStripe } from 'react-icons/fa';
+import { SiBootstrap, SiCss3, SiFirebase, SiJavascript, SiMongodb, SiMongoose, SiMui, SiMysql, SiNextdotjs, SiPython, SiRedux, SiTailwindcss, SiVercel } from "react-icons/si";
 import { BsFillExplicitFill } from "react-icons/bs";
 import { BiLogoGit, BiLogoHtml5, BiLogoNetlify } from "react-icons/bi";
 import { TbBrandVscode } from "react-icons/tb";
@@ -28,12 +28,28 @@ const Skill = () => {
                         <p className='text-lg'>Express.Js</p>
                     </div>
                     <div className="flex flex-col items-center hover:text-[rgb(0,207,93)]">
+                        <SiRedux  className='text-3xl'></SiRedux >
+                        <p className='text-lg'>Redux</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:text-[rgb(0,207,93)]">
                         <SiMongodb className='text-3xl'></SiMongodb>
                         <p className='text-lg'>MongoDB</p>
                     </div>
                     <div className="flex flex-col items-center hover:text-[rgb(0,207,93)]">
+                        <SiMongoose  className='text-3xl'></SiMongoose >
+                        <p className='text-lg'>Mongoose</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:text-[rgb(0,207,93)]">
+                        <SiMysql  className='text-3xl'></SiMysql >
+                        <p className='text-lg'>Mysql</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:text-[rgb(0,207,93)]">
                         <SiFirebase className='text-3xl'></SiFirebase>
                         <p className='text-lg'>Firebase</p>
+                    </div>
+                    <div className="flex flex-col items-center hover:text-[rgb(0,207,93)]">
+                        <FaStripe  className='text-3xl'></FaStripe >
+                        <p className='text-lg'>Stripe</p>
                     </div>
                     <div className="flex flex-col items-center hover:text-[rgb(0,207,93)]">
                         <SiJavascript className='text-3xl'></SiJavascript>
@@ -75,6 +91,7 @@ const Skill = () => {
                         <SiMui className='text-3xl'></SiMui>
                         <p className='text-lg'>Material UI</p>
                     </div>
+                    
                     <div className="flex flex-col items-center hover:text-[rgb(0,207,93)]">
                         <TbBrandVscode className='text-3xl'></TbBrandVscode>
                         <p className='text-lg'>Vs Code</p>
