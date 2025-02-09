@@ -26,7 +26,7 @@ const Footer = () => {
                 </div>
             </div>
             <div>
-                <img className="cursor-pointer mask mask-hexagon bg-[rgb(0,207,93)] w-12 p-2" src={logo} />
+                <Link to='home' smooth={true} spy={true} ><img className="cursor-pointer mask mask-hexagon bg-[rgb(0,207,93)] w-12 p-2" src={logo} /></Link>
                 <p>Copyright © 2023 - All right reserved by Raihan Jami Khan</p>
             </div>
         </footer>
