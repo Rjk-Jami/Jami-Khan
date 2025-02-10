@@ -13,19 +13,19 @@ const Skill = () => {
                 <div className=" grow grid lg:grid-cols-6 md:grid-cols-4 grid-cols-3 gap-4">
                     <div className="flex flex-col items-center hover:text-[rgb(0,207,93)]">
                         <FaReact className='text-3xl'></FaReact>
-                        <p className='text-lg'>React</p>
+                        <p className='text-lg'>React.js</p>
                     </div>
                     <div className="flex flex-col items-center hover:text-[rgb(0,207,93)]">
                         <SiNextdotjs className='text-3xl'></SiNextdotjs>
-                        <p className='text-lg'>Next.Js</p>
+                        <p className='text-lg'>Next.js</p>
                     </div>
                     <div className="flex flex-col items-center hover:text-[rgb(0,207,93)]">
                         <FaNodeJs className='text-3xl'></FaNodeJs>
-                        <p className='text-lg'>Node.Js</p>
+                        <p className='text-lg'>Node.js</p>
                     </div>
                     <div className="flex flex-col items-center hover:text-[rgb(0,207,93)]">
                         <BsFillExplicitFill className='text-3xl'></BsFillExplicitFill>
-                        <p className='text-lg'>Express.Js</p>
+                        <p className='text-lg'>Express.js</p>
                     </div>
                     <div className="flex flex-col items-center hover:text-[rgb(0,207,93)]">
                         <SiRedux  className='text-3xl'></SiRedux >
