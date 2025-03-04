@@ -14,7 +14,7 @@ const Home = () => {
                     <div className="max-w-lg">
                         <h1 className="mb-1 text-lg text-[rgb(0,207,93)]  font-semibold ">Hello! I am</h1>
                         <h1 className="mb-5 text-3xl md:text-6xl text-white font-bold">Raihan Jami Khan</h1>
-                        <p className="mb-0 text-[rgb(0,207,100)] text-xl md:text-2xl font-bold">Full Stack Developer</p>
+                        <p className="mb-0 text-[rgb(0,207,100)] text-xl md:text-2xl font-bold">MERN Stack Developer</p>
                         <div className="flex gap-3">
                         <p className='text-white mt-2 md:mt-0 mb-5 text-sm md:text-lg font-semibold'>Web Developer</p>
                         <p className='text-white mt-2 md:mt-0 mb-5 text-sm md:text-lg font-semibold'>&#x2022; Programmer</p>
