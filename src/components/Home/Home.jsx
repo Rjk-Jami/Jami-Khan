@@ -18,6 +18,7 @@ const Home = () => {
                         <div className="flex gap-3">
                         <p className='text-white mt-2 md:mt-0 mb-5 text-sm md:text-lg font-semibold'>Web Developer</p>
                         <p className='text-white mt-2 md:mt-0 mb-5 text-sm md:text-lg font-semibold'>&#x2022; Programmer</p>
+                        {/* korte hobe */}
                         <p className='text-white mt-2 md:mt-0 mb-5 text-sm md:text-lg font-semibold'>&#x2022; Software Engineer</p>
                         </div>
                         <div className=" flex gap-4">
